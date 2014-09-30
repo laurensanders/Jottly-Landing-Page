@@ -39,12 +39,15 @@
   ================================================== -->
 	<link rel="stylesheet" href="stylesheets/base.css">
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
-	<link rel="stylesheet" href="stylesheets/layout.css">
+ 	<link rel="stylesheet" href="stylesheets/layout.css">
+ 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+ 	<link rel="stylesheet" href="stylesheets/animate.css">
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
+	
 	<!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -57,109 +60,115 @@
 <!-- Header
 ================================================== -->	
 
-	<div id="header">
-		<img src="images/header_logo.png" />
-		<div class="container">
-			<div class="three columns">
-				<div class="logo">
-					<a href="#"><img src="images/header_logo.png" alt="Jottly" /></a>
+	<div id="header" class="row">					
+			<div class="container">
+				<div class="top-line">
+					<img src="images/header_logo.png" />
+	 				<nav>
+						<ul>
+							<li class="li-style"><a href="#">Sign Up</a></li>
+							<li><a href="#">Sign In</a></li>
+						</ul>
+					</nav>			 
 				</div>
-			</div>		
-		<div class="thirteen columns">
-		<nav>
-			<ul>
-				<li><a href="#">Sign Up</a></li>
-				<li><a href="#">Sign In</a></li>
-			</ul>
-		</nav>
-		</div>
-		
-		<div class="container">
-			<div class="nine columns">
-				<h1>Write. Collaborate. Share.</h1>
-				<div class="container">
-					<div class="row">
-						<div class="four columns omega">
-							<button type="submit">Get Started Now</button>
-						</div>
-					</div>
-				</div>			
 
+				<div class="twelve columns offset-by-two center">
+					<h1>Write. Collaborate. Share.</h1>
+					<div class="container">
+						<br class="row">
+						<div class="row">
+							<div class="four columns omega offset-by-two" class="btn">
+								<button type="submit" id="my-button"  onclick="thanks()"; class="btn">Get Started Now</button>
+							</div>
+						</div>
+					</div>	
+				</div>
 			</div>
-		</div>			
+
 		</div>
-	</div>	
+		<div class="row"></div>
+	</div>
+		
 <!-- Benefits
 ================================================== -->
 	<div id="benefits">
 		<div class="container">
-			<div class="twelve columns offset-by-two">
-
-				<h2>So what is Jott.ly?</h2>
-				<p>Jott.ly is all about simplicity, allowing our users an easier, more enjoyable experience when collaborating on projects and ideas. Simply write down your thoughts and Jott.ly will save, store, and organize them for quick access at a later time. With the click of a button, you can easily give accesss to coworkers, siblings, your boss, or friends to view and even edit your content.</p>
+			<div class="nine columns offset-by-one1">
+				<img class="scale-with-grid document-pic" src="images/my_first_jott.png" alt="Jottly's Web Application"/>
 			</div>	
-			<div class="fourteen columns offset-by-one">
-				<img class="scale-with-grid" src="images/my_first_jott.png" alt="Jottly's Web Application" />
-			</div>	
+			<br class="row"></br>
+			<div class=" offset-by-ten new jotly-text">
+				<h2>So what is <strong class="strong">Jott.ly</strong>?</h2>
+				<p>Jott.ly is all about simplicity, allowing our users an easier, more enjoyable experience when collaborating on projects and ideas.</p><p> Simply write down your thoughts and Jott.ly will save, store, and organize them for quick access at a later time.</p><p> With the click of a button, you can easily give accesss to coworkers, siblings, your boss, or friends to view and even edit your content.</p>
+			</div>				
 		</div>
+		<div class="row"></div>
 	</div>	
 <!-- Testimonials
 ================================================== -->
-	<div id="testimonials">
+	<div class="testimonials"><br class="row"><br class="row">
 		<div class="container">
-			<div class="twelve columns offset-by-two">
+			<div class="thirteen columns offset-by-two">
 				<h2>Find out what our customers think!</h2>
 				<p>With over 150,000 satisfied customers sharing and collaborating in more than 35 countries, Jott.ly gets plenty of fan mail!</p>
 			</div>	
 			<div class="one-third column">
+				<div class="bg-image1">
+					<!-- <img src="images/Dan.jpg" alt="Dan"/> -->
+				</div>
 			<blockquote>
-			"I love how easy and simple it is to use Jott.ly! My life as a writer is crazy enough, so this site made sharing and collaborating a breeze"
+			"I love how easy and simple Jottly is! It has made sharing and collaborating a breeze."
 			</blockquote>
 			<div class="avatar">
-			<img src="images/Dan.jpg" alt="Dan"/>
-			<p>Dan (Brooklyn, New York)</p>
+			<!-- <img src="images/Dan.jpg" alt="Dan"/> -->
+			<p>-Dan (Brooklyn, New York)</p>
 			</div>
 			</div>
 		
 			<div class="one-third column">
+				<div class="bg-image2">
+					<!-- <img src="images/Sarah.jpg" alt="Sarah"/> -->
+				</div>
 			<blockquote>
-			"As an editor, I'm always on the run. Jott.ly simplified my life and makes sharing with my team much easier! Thank you!"
+			"As an editor, I'm always on the run. Sharing with my team is now simplified, thanks to Jottly!"
 			</blockquote>	
-			<div class="avatar">
-			<img src="images/Sarah.jpg" alt="Sarah"/>
-			<p>Sarah (Los Angeles, California)</p>
+			<div class="avatar top-margin">
+			<!-- <img src="images/Sarah.jpg" alt="Sarah"/> -->
+			<p>-Sarah (Los Angeles, California)</p>
 			</div>
 			</div>
 		
 			<div class="one-third column">
+				<div class="bg-image3">					
+					<!-- <img src="images/James.jpg" alt="James"/> -->
+				</div>
 			<blockquote>
-			"The life of an artist is a busy, hectic one. Jott.ly makes it easy to quickly write down and share or store my ideas and thoughts"
+			"Jottly makes it easy to quickly write down and share or store my ideas and thoughts. Genius!"
 			</blockquote>
-			<div class="avatar">
-			<img src="images/James.jpg" alt="James"/>
-			<p>James (Paris, France)</p>
+			<div class="avatar top-margin">
+			<!-- <img src="images/James.jpg" alt="James"/> -->
+			<p>-James (Paris, France)</p>
 			</div>
 			</div>			
 		</div>
 	</div>	
+	<br class="row"></br>
 <!-- Call to Action 2
 ================================================== -->
 	<div id="action">
 		<div class="container">
-			<div class="twelve columns offset-by-two">
+			<div class="thirteen columns offset-by-one">
 				<h2>Take Jott.ly for a test drive.</h2>
 				<p>See what all the buzz is about! Sign up for free and begin sharing instantly.</p>
-				<div class="four columns omega">
-				<button type="submit">SIGN UP FOR FREE</button>
-				</div>
-			</div>
+ 				<button type="submit" class="button">SIGN UP FOR FREE</button>
+ 			</div>
 		</div>		
 	</div>
 <!-- Footer
 ================================================== -->
 	<div id="footer">
 		<div class="container">
-			<div class="twelve columns">
+			<div class="thirteen columns">
 				<nav>
 					<ul>
 						<li><a href="#">Sign In</a></li>
@@ -169,23 +178,29 @@
 					</ul>
 				</nav>
 			</div>
+
+			<div class="two column image-align">
+				<nav>
+					<ul class="social-btn-list">
+						<li class="one"><img src="images/Google.png" alt="Google+" /></li>
+						<li class="one"><img src="images/Facebook.png" alt="Facebook" /></li>
+					</ul>
+				</nav>
+			</div>
+
 		
-		<div class="one column">
-			<img src="images/Google.png" alt="Google+" />		
-		</div>
-		<div class="one column">
-			<img src="images/Facebook.png" alt="Facebook" />
-		</div>	
-		
-		<div class="two columns">
+		<div class="ten columns offset-by-six">
 			<p>&copy; 2014. Jott.ly. All Rights Reserved.</p>		
-		</div>
+		</div> 
+		
 	</div>
-	</div>		
+	</div>	
 
-
-
-
+<script type="text/javascript">
+function thanks() {
+	alert("Thank You");
+}
+</script>
 
 </body>
 </html>

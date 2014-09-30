@@ -27,16 +27,86 @@
 	@media only screen and (max-width: 959px) {}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+	@media only screen and (min-width: 768px) and (max-width: 959px){
+
+		.document-pic{
+			position: relative;
+			z-index: 999;
+			display: block;
+		}
+		.new{
+			padding-left: 60px; 
+			display: block;
+		}
+	}
 
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
+	@media only screen and (max-width: 767px) {
+
+		.document-pic{
+			position: relative;
+			z-index: 999;
+			display: block;
+		}
+		.new{
+			padding-left: 60px; 
+			display: block;
+		}		
+	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.jotly-text{
+			margin-top: 30em;
+		}
+	}
+	/* Custom Query*/
+	@media only screen and (min-width: 320px) and (max-width: 480px) {
+		.jotly-text{
+			margin-top: 20em;
+		}
+	}
+
+	@media only screen and (max-width: 479px) {
+		#header h1{
+			margin: 0;
+			font-size: 3em;
+			display:block;
+		}
+		#header nav ul li{
+			display: block;
+		}
+
+		#header .btn{
+			width: 280px;
+			height: 70px;
+			background: #9fd4b5;
+			text-shadow: none;
+ 			border-radius: 13px;
+			font-size: 25px;
+			color: #216296;
+			box-shadow: 0px 0px 0px 10px rgba(255,255,255,.4);
+			margin: 1em 1em 1em 1em;
+		}
+		#action .button{
+			width: 240px;
+			height: 60px;
+			background: #9fd4b5;
+			text-shadow: none;
+			border-radius: 5px;
+			font-size: 22px;
+			color: #216296;
+			box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.05);
+			margin: 1em 1em 3em 1em;
+		}
+		.top-line{
+			margin: 1em -1em 1em -1em;
+		}
+	}
+	
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and  (max-width: 479px) {}	
 
 
 /* #Font-Face
@@ -54,5 +124,5 @@
 	         url('../fonts/FontName.ttf') format('truetype'),
 	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
 	    font-weight: normal;
-	    font-style: normal; }
+	    font-style: normal; }	
 */

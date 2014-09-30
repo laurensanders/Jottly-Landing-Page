@@ -1,0 +1,283 @@
+#element_to_pop_up{ 
+	display:none; 
+}
+#element_to_pop_up #message{
+	width: 200px;
+	background: #fff;
+	color: #000;
+	text-align: center;
+	padding: 3em;
+	font-weight: bold;
+	font-size: 2em;
+	border-radius: 7px;
+}
+
+
+.top-line{
+ 	margin: 2em auto;
+}
+.center{
+	text-align: center;
+}
+#header
+{
+	
+	background: url("../images/Jottly_main_photo.png") top center no-repeat;
+	width: 100%;
+	background-size: cover;
+ 	min-height: 690px;
+
+}
+#header img_
+{
+	margin-top: 1em;
+}
+
+#header nav
+{
+	float: right;
+}
+#header nav ul li
+{
+	display: inline;
+	text-decoration: none;
+	margin-right: 1em;
+	/*float: right;*/
+}
+#header nav ul li a
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: #ffffff;
+	cursor: pointer;
+
+}
+#header nav ul li a:hover
+{
+	cursor: pointer;
+}
+#header nav ul .li-style
+{
+	border: 2px;
+	border-top: 3px;
+	border-style: solid;
+	border-color: #D4FDE5;
+	padding: 10px;
+	border-radius: 10px;
+}
+#header nav ul .li-style a
+{
+	padding: 5px;
+}
+#header  h1
+{
+	color: #ffffff;
+	margin-top: 2.5em;
+	font-weight: bold;
+ }
+
+#header .btn
+{
+	width: 370px;
+	height: 87px;
+	background: #9fd4b5;
+	text-shadow: none;
+	position: relative;
+	border-radius: 13px;
+	font-size: 30px;
+	color: #216296;
+	box-shadow: 0px 0px 0px 10px rgba(255,255,255,.4);
+	margin: 1em 1em 3em 1em;
+}
+#header .btn:hover{
+		box-shadow: 0px 0px 0px 10px rgba(255,255,255,.);
+
+}
+
+input[type="button"]:hover
+{
+	background: none;
+}
+
+.strong
+{
+	color: #216296;
+}
+
+.testimonials, #footer 
+{
+	background: #8c8c8b;
+	
+}
+.testimonials 
+{
+	color: #ffffff !important;
+}
+
+.testimonials  .bg-image1,.bg-image2,.bg-image3
+{
+	text-align: center;
+}
+.one-third
+{
+	text-align: center;
+}
+.testimonials h2,p,blockquote
+{
+	color: #ffffff;
+}
+
+.testimonials /* h2,blockquote ,blockquote p*/
+{
+	text-align: center;
+}
+.testimonials /*.avatar p*/
+{
+	text-align: center;
+}
+
+
+/*.button
+{
+	background: 
+}*/
+#action .button
+{
+	width: 330px;
+	height: 65px;
+	background: #9fd4b5;
+	text-shadow: none;
+	border-radius: 5px;
+	font-size: 30px;
+	color: #216296;
+	box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.05);
+	margin: 1em 1em 3em 1em;
+}
+#action p
+{
+	color:#8c8c8b;
+}
+#action /*h2, p*/
+{
+	text-align: center;
+}
+#footer
+{
+	padding: 25px;
+}
+#benefits p
+{
+	color: #8c8c8b;
+}
+#footer nav ul li
+{
+	display: inline;
+	text-decoration: none;
+	margin-right: 1em;
+}
+#footer nav ul li a
+{
+	text-decoration: none;
+	color: #ffffff;
+	 font-size: 1.3em;
+}
+#footer nav
+{
+	margin-top: 2em;
+}
+#footer img
+{
+	border: 3px solid #ffffff;
+	border-radius: 30px;
+}
+
+.image-align
+{
+	/*padding: 25px 0 2em 0;*/
+}
+
+.document-pic{
+	position: absolute;
+	z-index: -999;
+	top: 10px;
+}
+
+
+.testimonials .bg-image1 
+{
+	width: 9em;
+	height: 9em;
+	background: url("../images/Dan.jpg") no-repeat;
+	margin: 0 auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+
+	/*-webkit-background-position: center;
+	-moz-background-position: center;
+	-o-background-position: center;
+	-ms-background-position: center;
+	background-position: center;*/
+	
+	border: 5px solid #9fd4b5;
+
+	-webkit-border-radius: 96px;
+	-moz-border-radius: 96px;
+	-o-border-radius: 96px;
+	-ms-border-radius: 96px;
+	border-radius: 96px;
+}
+.testimonials .bg-image2
+{
+	width: 9em;
+	height: 9em;
+	background: url("../images/Sarah.jpg") no-repeat;
+	margin: 0 auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+
+	-webkit-background-position: center;
+	-moz-background-position: center;
+	-o-background-position: center;
+	-ms-background-position: center;
+	background-position: center;
+	
+	border: 5px solid #9fd4b5;
+
+	-webkit-border-radius: 96px;
+	-moz-border-radius: 96px;
+	-o-border-radius: 96px;
+	-ms-border-radius: 96px;
+	border-radius: 96px;
+}
+.testimonials .bg-image3 
+{
+	width: 9em;
+	height: 9em;
+	background: url("../images/James.jpg") no-repeat;
+	margin: 0 auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+
+	-webkit-background-position: center;
+	-moz-background-position: center;
+	-o-background-position: center;
+	-ms-background-position: center;
+	background-position: center;
+
+	border: 5px solid #9fd4b5;
+
+	-webkit-border-radius: 96px;
+	-moz-border-radius: 96px;
+	-o-border-radius: 96px;
+	-ms-border-radius: 96px;
+	border-radius: 96px;
+}
